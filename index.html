@@ -1,0 +1,23 @@
+<!--
+Author: Stephen Mullins
+Date: 17/4/2024
+Week 10 Lab | Question 6:
+Create a grocery list application where users can add and remove items from a list. The list should be displayed as a bulleted unordered list-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Shopping List:</h1>
+    <ul id="list"><!--adding id to list to add/remove to it-->
+    </ul>
+    <button onclick="addToList()">Add Item(s)</button>
+    <button onclick="removeFromList()">Remove Last</button><!--UI, showing end user that they are removing only the last item-->
+<script src="script.js"></script>
+</body>
+</html>
